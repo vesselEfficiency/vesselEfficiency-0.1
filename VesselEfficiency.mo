@@ -384,7 +384,7 @@ Contains the following components:
 
     model Contact
       extends VesselEfficiency.Icons.Contact;
-      annotation(Documentation(info = "<html>
+      annotation(Documentation(info="<html>
 <head>
 <style TYPE=\"text/css\">
 .ljmu {color: #009ED9;}
@@ -399,7 +399,7 @@ Byrom Street<br>
 Liverpool<br>
 UK
 <h4 class=\"modelon\">Web:</h4>
-<dl><dt><a href=\"http://www.ljmu.ac.uk/eng\">www.ljmu.ac.uk/eng</a></dt></dl>
+<dl><dt><a href=\"http://www.ljmu.ac.uk/eng\">www.ljmu.ac.uk/</a></dt></dl>
 </html>"));
     end Contact;
   end Information;
