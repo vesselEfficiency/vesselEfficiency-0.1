@@ -17,7 +17,7 @@ package VesselEfficiency
   You can find the following examples:
   <ul>
   <li> Single propulsion vessel - simplified calculations and visual experience. For more information click <a href=\"VesselEfficiency.Examples.SinglePropulsion\">here</a></li>
-  <li> Single propulsion vessel - simplified calculations and visual experience with UDP sender to LabView. For more information click <a href=\"VesselEfficiency.Examples.SinglePropDataExchange\">here</a></li>
+  <li> Single propulsion vessel - simplified calculations and visual experience with UDP sender to LabVIEW. For more information click <a href=\"VesselEfficiency.Examples.SinglePropDataExchange\">here</a></li>
   </ul>
 <hr>
 <br>
@@ -205,7 +205,7 @@ Contains the following components:
  <a href=\"VesselEfficiency.DataExchange\">Data exchange</a><br>
  Information:
  <ul>
- <li>Data exchange with an UDP sender to LabView</li>
+ <li>Data exchange with an UDP sender to LabVIEW</li>
  <li>Contains models for the bridge data and ship motion</li>
  </ul>
  </td>
@@ -559,7 +559,7 @@ UK
     end SinglePropulsion;
 
     model SinglePropDataExchange
-      "Example for single propulsion vessels with udp sender to LabView"
+      "Example for single propulsion vessels with udp sender to LabVIEW"
       import VesselEfficiency;
       extends VesselEfficiency.Icons.Example;
 
@@ -646,7 +646,7 @@ UK
                                                          fileName=""), Text(
               extent={{-66,96},{66,86}},
               lineColor={0,0,0},
-              textString="Single propulsion with UDP sender to LabView
+              textString="Single propulsion with UDP sender to LabVIEW
 No Simulation with student license!")}),                                                                                                    Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2, 2}), graphics),
         Documentation(info="<html>
 <p><u><b><span style=\"font-size: 12pt;\">Getting started</span></b></u></p>
@@ -735,13 +735,13 @@ No Simulation with student license!")}),                                        
    </ul>
 
 <tr><td>
-   <img src=\"modelica://VesselEfficiency/images/Icons/LabView.png\" width=\"100\" height=\"100\"><br>
+   <img src=\"modelica://VesselEfficiency/images/Icons/LabVIEW.png\" width=\"100\" height=\"100\"><br>
  </td>
  <td>
    <br>
    Information:
    <ul>
-   <li>Open the labview project \"Dymola_UDP\" (Path: LJMU Project/(2)LabView_UDP/(1)SinglePropulsion</li>
+   <li>Open the LabVIEW project \"Dymola_UDP\" (Path: LJMU Project/(2)LabVIEW_UDP/(1)SinglePropulsion</li>
    <li>Open \"Start_UDP-Receiver\" VI and click run </li> 
    </ul>
 
@@ -4374,7 +4374,7 @@ the result as output signal.
                     -26}}, fileName=
                     "modelica://VesselEfficiency/Images/Icons/DataExchangePackage.png"),
                 Bitmap(extent={{12,92},{92,16}}, fileName=
-                    "modelica://VesselEfficiency/Images/Icons/LabView.png")}));
+                    "modelica://VesselEfficiency/Images/Icons/LabVIEW.png")}));
       end BaseDataExchange;
     end Interfaces;
 
@@ -4658,7 +4658,7 @@ the result as output signal.
               Text(
                 extent={{-96,100},{-38,88}},
                 lineColor={0,0,0},
-                textString="Index Array Subset in LabView",
+                textString="Index Array Subset in LabVIEW",
                 textStyle={TextStyle.UnderLine}),
               Text(
                 extent={{12,6},{64,-4}},
@@ -4671,7 +4671,7 @@ the result as output signal.
    <li>Change to simulation mode</li>        
    <li>Change the simulation stop time (e.g. 1000 seconds)</li>
    <li>Run the simulation</li>
-   <li>Open the LabView project \"Dymola_UDP\" (Path: LJMU Project/(2)LabView_UDP/(2)Simplified ) and then the \"UDP_Start_Receiver\" VI   </li>
+   <li>Open the LabVIEW project \"Dymola_UDP\" (Path: LJMU Project/(2)LabVIEW_UDP/(2)Simplified ) and then the \"UDP_Start_Receiver\" VI   </li>
    <li>Run the VI</li>
    </ul>
 </p>
@@ -4810,7 +4810,7 @@ the result as output signal.
    <li>Change to simulation mode</li>        
    <li>Change the simulation stop time (e.g. 1000 seconds)</li>
    <li>Run the simulation</li>
-   <li>Open the LabView project \"Dymola_UDP\" (Path: LJMU Project/(2)LabView_UDP/(3)TwoPorts ) and then the \"UDP_Start_Receiver\" VI </li>
+   <li>Open the LabVIEW project \"Dymola_UDP\" (Path: LJMU Project/(2)LabVIEW_UDP/(3)TwoPorts ) and then the \"UDP_Start_Receiver\" VI </li>
    <li>Run the VI</li>
    </ul>
 </p>
