@@ -18,7 +18,7 @@ To get started with vesselEfficiency, start Dymola and then perform the tasks "F
 Two ready-made examples are available in the "Examples" section of the library which can be simulated straight away:
 
 1. Single propulsion vessel: simplified calculations and visual experience.
-2. Single propulsion vessel with LabView link: simplified calculations and visual experience with UDP sender to LabView.
+2. Single propulsion vessel with LabVIEW link: simplified calculations and visual experience with UDP sender to LabVIEW.
 
 
 Development and Contribution

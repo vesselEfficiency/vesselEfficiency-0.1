@@ -18,7 +18,7 @@ Examples
 Two ready-made examples are available in the "Examples" section of the library which can be simulated straight away:
 
 	- Single propulsion vessel: simplified calculations and visual experience.
-	- Single propulsion vessel with LabView link: simplified calculations and visual experience with UDP sender to LabView.
+	- Single propulsion vessel with LabVIEW link: simplified calculations and visual experience with UDP sender to LabVIEW.
 
 
 Development and Contribution
